@@ -1,0 +1,42 @@
+.carousel-item { height: auto !important;}
+.carousel-image { background: rgba(255,255,255, 0.1); filter: brightness(60%); }
+.video { width: 90%; height: 440px;  }
+.section-title { font-size: 36px; }
+.article-header { font-size: 18px; color: #333333 !important; }
+.article-subheader { font-size: 16px; color: #333333 !important; }
+.article-content { font-size: 14px; color: #333333 !important; line-height: 1.5rem }
+.card-wisata { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25); transition: 0.5s; overflow: hidden; cursor: pointer}
+.card-homestay { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25); transition: 0.5s; overflow: hidden;}
+.card-homestay:hover, .card-wisata:hover { transform: scale(1.03) }
+.image-foreground { width: 100%; height: 100%; background: rgba(0,0,0,0.55) }
+.homestay-title { font-size: 18px; color: #EEEEEE !important; font-weight: 700; }
+.homestay-description { font-size: 14px; color: #EEEEEE !important; line-height: 1.5rem }
+.wisata-title { color: #EEEEEE !important; font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+.more { font-size: 16px; }
+
+@media screen and (max-width: 992px) {
+    .carousel-item { height: auto !important;}
+    .video { height: 300px; }
+    .section-title { font-size: 28px; }
+    .article-header { font-size: 16px }
+    .article-subheader { font-size: 14px }
+    .article-content { font-size: 12px; line-height: 1.4rem }
+    .homestay-title { font-size: 16px; }
+    .homestay-description { font-size: 12px; line-height: 1.4rem }
+    .more { font-size: 14px; }
+}
+
+@media screen and (max-width: 768px) {
+    .video { height: 200px; }
+    .section-title { font-size: 24px; }
+}
+
+@media screen and (max-width: 576px) {
+    .section-title { font-size: 20px; }
+}

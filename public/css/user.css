@@ -1,0 +1,43 @@
+@font-face { font-family: sansitta-bold; src: url('../fonts/Sansita-Bold.ttf'); }
+@font-face { font-family: niramit-bold; src: url('../fonts/Niramit-Bold.ttf'); }
+@font-face { font-family: niramit-regular; src: url('../fonts/Niramit-Regular.ttf'); }
+@font-face { font-family: niramit-medium; src: url('../fonts/Niramit-Medium.ttf'); }
+@font-face { font-family: poppins-regular; src: url('../fonts/Poppins-Regular.ttf'); }
+@font-face { font-family: poppins-semibold; src: url('../fonts/Poppins-SemiBold.ttf'); }
+@font-face { font-family: poppins-medium; src: url('../fonts/Poppins-Medium.ttf'); }
+
+.niramit-bold { font-family: niramit-bold; }
+.niramit-medium { font-family: niramit-medium; }
+.niramit-regular { font-family: niramit-regular; }
+.poppins-regular { font-family: poppins-regular; }
+.poppins-semibold { font-family: poppins-semibold; }
+.poppins-medium { font-family: poppins-medium; }
+
+* { font-family: 'sansitta-bold', sans-serif; color: #313131 !important; }
+
+/* Desktop navigation menu */
+.navigation-desktop { display: block; font-size: 19px; }
+.navigation-desktop a { transition: 0.4s; }
+.navigation-desktop a:hover { transform: scale(1.05) }
+.wisata-dropdown { opacity: 0; }
+.wisata-dropdown li { background: #F15201; color: white !important }
+.wisata-dropdown li:hover { background: #fa6c25; }
+.wisata-dropdown li a { color: white !important; text-decoration: none; }
+
+.nav-gradient { transition: opacity 0.5s ease-out; z-index: -1; background: linear-gradient(269.55deg, #A55203 -18.1%, #F15201 32.44%, #FEDB04 109.84%); opacity: 0; }
+
+/* Mobile sidebar navigation menu */
+.btn-nav-mobile { display: none; right: 8%; top: 3%; }
+.btn-hamburger { background: linear-gradient(136.7deg, #F15201 0%, #FEDB04 138.21%); border: 0; outline: 0; }
+.hamburger-icon { width: 20px; height: 3px; background: white; border: 2px solid white; border-radius: 2px; }
+.navigation-mobile { height: 100%; width: 0; position: fixed; background: url('../images/nav_mobile.jpg'); background-size: cover; z-index: 600; top: 0;  right: 0; overflow-x: hidden; transition: 0.5s }
+.navigation-mobile a { text-decoration: none; font-size: 16px; transition: 0.3s; }
+.btn-close { background: none; outline: none; border: 0; width: fit-content }
+
+.footer-head { font-size: 14px; color: #444444 !important }
+.footer-content { font-size: 12px; color: #444444 !important; line-height: 22px }
+
+@media screen and (max-width: 992px) {
+    .navigation-desktop { display: none; }
+    .btn-nav-mobile { display: block !important; z-index: 500 }
+}

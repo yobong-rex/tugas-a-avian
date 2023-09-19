@@ -1,0 +1,29 @@
+.carousel-item { height: auto !important;}
+.carousel-image { background: rgba(255,255,255, 0.1); filter: brightness(60%); }
+
+.wahana-title, .tiket-title, .contact-title {
+    font-size: 32px;
+}
+
+.wahana-deskripsi, .wahana-deskripsi > p  {
+    font-size: 18px;
+    font-family: niramit-regular;
+}
+
+.tiket-harga, .contact-number {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .wahana-title, .tiket-title, .contact-title {
+        font-size: 24px;
+    }
+    
+    .wahana-deskripsi, .wahana-deskripsi > p  {
+        font-size: 16px;
+    }
+    
+    .tiket-harga, .contact-number {
+        font-size: 18px;
+    }
+}

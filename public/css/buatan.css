@@ -1,0 +1,28 @@
+.nav-gradient { opacity: 1 !important; }
+.section-title { font-size: 36px; }
+.section-description { font-size: 20px; }
+.card-buatan { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15); transition: 0.5s; overflow: hidden; cursor: pointer; }
+.card-buatan:hover { transform: scale(1.03) }
+.image-foreground { width: 100%; height: 100%; background: rgba(0,0,0,0.55) }
+.buatan-title { font-size: 18px; color: #EEEEEE !important }
+.buatan-description { font-size: 14px; color: #EEEEEE !important; line-height: 1.5rem }
+.deskripsi-modal { font-size: 14px; line-height: 1.5rem }
+
+@media screen and (max-width: 992px) {
+    .section-title { font-size: 28px; }
+    .section-description { font-size: 18px; }
+    .buatan-title { font-size: 18px; }
+    .buatan-description { font-size: 14px; }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title { font-size: 24px; }
+    .section-description { font-size: 16px; }
+    .buatan-title { font-size: 16px; }
+    .buatan-description { font-size: 12px; line-height: 1.4rem }
+    .deskripsi-modal { font-size: 12px; line-height: 1.4rem }
+}
+
+@media screen and (max-width: 576px) {
+    .section-description { font-size: 13px; }
+}

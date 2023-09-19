@@ -1,0 +1,22 @@
+.article-header { font-size: 28px; color: #333333 }
+.article-subheader { font-size: 18px; font-family: niramit-medium; color: #333333 }
+.article-content > p { font-size: 16px; line-height: 1.7rem; font-family: niramit-regular; color: #333333 }
+.nav-gradient { opacity: 1 !important; }
+
+@media screen and (max-width: 992px) {
+    .article-header { font-size: 28px; }
+    .article-subheader { font-size: 18px; }
+    .article-content > p { font-size: 16px; line-height: 1.6rem; }
+}
+
+@media screen and (max-width: 768px) {
+    .article-header { font-size: 20px; }
+    .article-subheader { font-size: 16px; }
+    .article-content > p { font-size: 14px; line-height: 1.6rem; }
+}
+
+@media screen and (max-width: 576px) {
+    .article-header { font-size: 17px; }
+    .article-subheader { font-size: 14px; }
+    .article-content > p { font-size: 13px; line-height: 1.4rem; }
+}

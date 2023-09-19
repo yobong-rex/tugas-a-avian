@@ -1,0 +1,24 @@
+.nav-gradient { opacity: 1 !important; }
+.card-homestay { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25); cursor: pointer; transition: 0.5s; overflow: hidden;}
+.card-homestay:hover { transform: scale(1.03) }
+.image-foreground { width: 100%; height: 100%; background: rgba(0,0,0,0.55) }
+.section-title { font-size: 36px; }
+.section-description { font-size: 20px; }
+.homestay-title { font-size: 18px; color: #EEEEEE !important }
+.homestay-description { font-size: 14px; color: #EEEEEE !important; line-height: 1.5rem }
+
+@media screen and (max-width: 992px) {
+    .section-title { font-size: 28px; }
+    .section-description { font-size: 18px; }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title { font-size: 24px; }
+    .section-description { font-size: 16px; }
+    .homestay-title { font-size: 16px; }
+    .homestay-description { font-size: 12px; line-height: 1.4rem }
+}
+
+@media screen and (max-width: 576px) {
+    .section-description { font-size: 13px; }
+}

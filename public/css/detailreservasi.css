@@ -1,0 +1,13 @@
+.nav-gradient { opacity: 1 !important; }
+.section-title { font-size: 36px; }
+.list-text { font-size: 20px; }
+.detail-text { font-size: 18px; }
+.qr-background { background: url('../images/bg_video_profil.png'); background-size: cover; background-position: center; }
+
+@media screen and (max-width: 992px) {
+    .section-title { font-size: 28px; }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title { font-size: 24px; }
+}

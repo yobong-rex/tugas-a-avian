@@ -1,0 +1,30 @@
+.article-background { background: url('../images/bg_informasi.png'); background-size: cover; background-repeat: no-repeat; height: fit-content; border-radius: 20px }
+.article-header { font-size: 24px }
+.article-subheader { font-size: 16px }
+.article-content { font-size: 16px; line-height: 1.6rem }
+.section-title { font-size: 36px; }
+.nav-gradient { opacity: 1 !important; }
+.top-title { font-size: 32px }
+.top-date { font-size: 20px }
+
+@media screen and (max-width: 992px) {
+    .section-title { font-size: 28px; }
+    .article-background { background-position: center top }
+    .top-title { font-size: 24px }
+    .top-date { font-size: 16px }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title { font-size: 24px; }
+    .top-title { font-size: 18px }
+    .top-date { font-size: 14px }
+}
+
+@media screen and (max-width: 576px) {
+    .section-title { font-size: 20px; }
+    .article-header { font-size: 20px }
+    .article-subheader { font-size: 14px }
+    .article-content { font-size: 14px; line-height: 1.4rem }
+    .top-title { font-size: 16px }
+    .top-date { font-size: 12px }
+}

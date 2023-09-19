@@ -1,0 +1,35 @@
+.nav-gradient { opacity: 1 !important; }
+.section-title { font-size: 36px; }
+.section-description { font-size: 20px; }
+.card-reservasi { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15); transition: 0.5s; overflow: hidden  }
+.card-reservasi:hover { transform: scale(1.03) }
+.reservasi-title { font-size: 18px; color: #333333 !important }
+.reservasi-description { font-size: 14px; color: #333333 !important }
+.reservasi-harga {
+	background: linear-gradient(269.55deg, #A55203 -18.1%, #F15201 32.44%, #FEDB04 109.84%);
+	position: absolute;
+	transform: rotate(45deg);
+	right: -64px;
+	top: 23px;
+	width: 200px;
+    font-size: 12px;
+    color: #333333 !important;
+	margin: 0;
+	z-index: 300;
+}
+
+@media screen and (max-width: 992px) {
+    .section-title { font-size: 28px; }
+    .section-description { font-size: 12px; }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title { font-size: 24px; }
+    .section-description { font-size: 16px; }
+    .reservasi-title { font-size: 16px; }
+    .reservasi-description { font-size: 14px; }
+}
+
+@media screen and (max-width: 576px) {
+    .section-description { font-size: 13px; }
+}
